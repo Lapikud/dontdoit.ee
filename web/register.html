@@ -30,17 +30,13 @@
 
   <article class="container mdl-card mdl-shadow--2dp" id="registration-card">
     <p>
-      Registreerumiseks pane kokku oma 3 kuni 4 liikmeline meeskond,
-      täida ära all olevad väljad ja vajuta registreeri.
+      Registreerumiseks pane kokku 3-4 liikmeline võistkond, täida ära kõik vajalikud väljad ja vajuta nupule "Registreeri".
     </p>
 
-    <p><b>
-      Registreerimise kinnitamiseks tuleb meeskonna ühel liikmel teha ülekanne 5€ pangakontole ??. Raha laekumise kohta tuleb teile emailile teade ning see järel oodatakse teid 12. Aprillil üritusest osa võtma.
-    </b></p>
-
     <p>
-      See väike osalus tasu võimaldab meil hiljem <a href="http://www.pooning.ee/">Pööningul</a>
-      pakkuda sinu meeskonnale pizzat ja auhindu.
+      Osalemise kinnitamiseks tuleb ühel võistkonnaliikmel kanda sümboolne võistkonna osalustasu <b>5€</b>
+      pangakontole <b>MTÜ Lapikud EE812200221019551756</b>, selgituseks kirjuta võistkonna nimi + Don't do IT.
+      Raha laekumise kohta saadame teate teile meilile ning seejärel kohtume juba 12. mail.
     </p>
 
     <form id="registration-form">
@@ -54,18 +50,6 @@
         <input class="mdl-textfield__input" type="text" id="team-school" data-required/>
         <label class="mdl-textfield__label" for="team-school">Kooli nimi:</label>
         <span class="mdl-textfield__error">See väli on kohustuslik</span>
-      </div>
-
-      <h5>Meeskonna kapten <span class="required">*</span></h5>
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="leader-name" data-required/>
-        <label class="mdl-textfield__label" for="leader-name">Nimi:</label>
-        <span class="mdl-textfield__error">See väli on kohustuslik</span>
-      </div>
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="email" id="leader-email" data-required/>
-        <label class="mdl-textfield__label" for="leader-email">Email:</label>
-        <span class="mdl-textfield__error">See väli peab sisaldama emaili aadressi</span>
       </div>
 
       <h5>Meeskonna liikmed</h5>
@@ -93,14 +77,26 @@
         <span class="mdl-textfield__error">See väli peab sisaldama emaili aadressi</span>
       </div>
 
-      <h6>Kolmas liige</h6>
+      <h6>Kolmas liige <span class="required">*</span></h6>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="member3-name" />
+        <input class="mdl-textfield__input" type="text" id="member3-name" data-required />
         <label class="mdl-textfield__label" for="member3-name">Nimi:</label>
       </div>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="email" id="member3-email" />
+        <input class="mdl-textfield__input" type="email" id="member3-email" data-required/>
         <label class="mdl-textfield__label" for="member3-email">Email:</label>
+        <span class="mdl-textfield__error">See väli peab sisaldama emaili aadressi</span>
+      </div>
+
+      <h6>Neljas liige</h6>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="member4-name"/>
+        <label class="mdl-textfield__label" for="member4-name">Nimi:</label>
+        <span class="mdl-textfield__error">See väli on kohustuslik</span>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="email" id="member4-name"/>
+        <label class="mdl-textfield__label" for="member4-name">Email:</label>
         <span class="mdl-textfield__error">See väli peab sisaldama emaili aadressi</span>
       </div>
       
