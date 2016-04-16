@@ -50,6 +50,7 @@ header.register {
     line-height: 1.6;
     font-size: 32px;
     font-weight: 300;
+    padding-bottom:4em;
 }
 
 header h1 {
@@ -77,12 +78,13 @@ a.header-back {
 #registration-card {
     width: 100%;
     padding: 1em;
-    margin-top: 1em;
+    margin-top: -6em;
     max-width: 35em;
 }
 
 #registration-form .mdl-textfield {
-    width: 100%
+    width: 100%;
+    margin-bottom: -17px;
 }
 
 #registration-form #register {
@@ -101,6 +103,7 @@ a.header-back {
 .block {
     display: block;
     margin: 1em auto;
+    margin-top: 2em;
     width: 80%;
     text-align: center;
     font-weight: 400;
@@ -120,11 +123,11 @@ a.header-back {
 }
 
 #footer-padding {
-    padding-bottom: 5em;
+    padding-bottom: 100px;
 }
 
 footer {
-    padding: 0.5em 0;
+    padding: 1em 0;
     background: #212121;
     color: #727272;
     text-align: center;
