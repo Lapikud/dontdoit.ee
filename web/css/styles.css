@@ -92,6 +92,10 @@ header a:active, .button:active {
     font-weight: 400;
 }
 
+article p {
+    text-align: justify;
+}
+
 @media (min-height: 700px) {
     header {
         /*max-height: ;*/
@@ -119,7 +123,7 @@ header a:active, .button:active {
 
 footer {
     padding: 1vh 0;
-    background: #3F51B5;
+    background: #212121;
     color: #FFFFFF;
     text-align: center;
 }
