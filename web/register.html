@@ -7,7 +7,7 @@
 
   <title>Don't do IT - Registreerumine</title>
   <meta name="description" content="Millal oli viimane kord, kui juhtmeid tinutasid või pommi demineerisid? ITÜNi ja Lapikute koostöös valmiv Don’t Do IT annab sulle selle võimaluse! Tule kohale ja tunne end kui rääkivas ratastoolis Indiana Jones, kellel ei jää lahendamata ükski probleem - kuitahes teoreetiline või praktiline see poleks!">
-  <meta name="author" content="Arti Zirk <arti.zirk@gmail.com>">
+  <meta name="author" content="ITÜN &amp; Lapikud">
   <meta property="og:title" content="Don't do IT" />
   <meta property="og:url" content="http://dontdoit.ee" />
   <meta property="og:image" content="http://dontdoit.ee/img/cover_noblurr.png" />
@@ -34,20 +34,18 @@
     </p>
 
     <p>
-      Osalemise kinnitamiseks tuleb ühel võistkonnaliikmel kanda sümboolne võistkonna osalustasu <b>5€</b>
-      pangakontole <b>MTÜ Lapikud EE812200221019551756</b>, selgituseks kirjuta võistkonna nimi + Don't do IT.
-      Raha laekumise kohta saadame teate teile meilile ning seejärel kohtume juba 12. mail.
+      Osalemise kinnitamiseks tuleb ühel võistkonnaliikmel kanda sümboolne võistkonna osalustasu <b>5€</b> pangakontole <b>Pärlin Luhila EE021010011573567224</b>, selgituseks kirjuta võistkonna nimi + Don't do IT. Raha laekumise kohta saadame teate teile meilile ning seejärel kohtume juba 12. mail.
     </p>
 
     <form id="registration-form">
       <h5>Sinu meeskond <span class="required">*</span></h5>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="team-name" data-required/>
+        <input class="mdl-textfield__input" type="text" id="team-name" name="team-name" data-required/>
         <label class="mdl-textfield__label" for="team-name">Meeskonna nimi:</label>
         <span class="mdl-textfield__error">See väli on kohustuslik</span>
       </div>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="team-school" data-required/>
+        <input class="mdl-textfield__input" type="text" id="team-school" name="team-school" data-required/>
         <label class="mdl-textfield__label" for="team-school">Kooli/organisatsiooni nimi:</label>
         <span class="mdl-textfield__error">See väli on kohustuslik</span>
       </div>
@@ -55,53 +53,56 @@
       <h5>Meeskonna liikmed</h5>
       <h6>Esimene liige <span class="required">*</span></h6>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="member1-name" data-required/>
+        <input class="mdl-textfield__input" type="text" id="member1-name" name="member1-name" data-required/>
         <label class="mdl-textfield__label" for="member1-name">Nimi:</label>
         <span class="mdl-textfield__error">See väli on kohustuslik</span>
       </div>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="email" id="member1-email" data-required/>
+        <input class="mdl-textfield__input" type="email" id="member1-email" name="member1-email" data-required/>
         <label class="mdl-textfield__label" for="member1-email">Email:</label>
         <span class="mdl-textfield__error">See väli peab sisaldama emaili aadressi</span>
       </div>
 
       <h6>Teine liige <span class="required">*</span></h6>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="member2-name" data-required/>
+        <input class="mdl-textfield__input" type="text" id="member2-name" name="member2-name" data-required/>
         <label class="mdl-textfield__label" for="member2-name">Nimi:</label>
         <span class="mdl-textfield__error">See väli on kohustuslik</span>
       </div>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="email" id="member2-email" data-required/>
+        <input class="mdl-textfield__input" type="email" id="member2-email" name="member2-email"/>
         <label class="mdl-textfield__label" for="member2-email">Email:</label>
         <span class="mdl-textfield__error">See väli peab sisaldama emaili aadressi</span>
       </div>
 
       <h6>Kolmas liige <span class="required">*</span></h6>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="member3-name" data-required />
+        <input class="mdl-textfield__input" type="text" id="member3-name" name="member3-name" data-required />
         <label class="mdl-textfield__label" for="member3-name">Nimi:</label>
       </div>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="email" id="member3-email" data-required/>
+        <input class="mdl-textfield__input" type="email" id="member3-email" name="member3-email"/>
         <label class="mdl-textfield__label" for="member3-email">Email:</label>
         <span class="mdl-textfield__error">See väli peab sisaldama emaili aadressi</span>
       </div>
 
       <h6>Neljas liige</h6>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="member4-name"/>
+        <input class="mdl-textfield__input" type="text" id="member4-name" name="member4-name"/>
         <label class="mdl-textfield__label" for="member4-name">Nimi:</label>
         <span class="mdl-textfield__error">See väli on kohustuslik</span>
       </div>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="email" id="member4-name"/>
+        <input class="mdl-textfield__input" type="email" id="member4-name" name="member4-email"/>
         <label class="mdl-textfield__label" for="member4-name">Email:</label>
         <span class="mdl-textfield__error">See väli peab sisaldama emaili aadressi</span>
       </div>
       
       <div>
-        <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent block" id="register" disabled>Registreeru</button>
+        <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent block" id="register">
+          Registreeru <!--span><div class="mdl-spinner mdl-js-spinner mdl-spinner--single-color is-active"></div></span-->
+        </button>
+        
       </div>
 
     </form>
@@ -116,19 +117,19 @@
     </div>
   </footer>
 
+  <div class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
+  </div>
+
   <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+  <script defer src="/js/registration.js"></script>
   <script>
-    var form = document.getElementById('registration-form');
-    var inputs = form.querySelectorAll("input");
-    for (var i = inputs.length - 1; i >= 0; i--) {
-      var input = inputs[i]
-      if (input.hasAttribute("data-required")) {
-        input.addEventListener("focus", function(ev) {
-          this.setAttribute("required", "");
-          console.log("adding required attribute");
-        })
-      }
-    }
+    (function(){
+      try {
+        main();
+      } catch (RefrenceError) {}
+    })()
   </script>
 </body>
 </html>
