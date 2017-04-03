@@ -94,7 +94,7 @@ header a:active, .button:active {
 
 .disabled, .disabled:hover,.disabled:active, .disabled:link, .disabled:visited {
     background-color: rgba(0,0,0,.12);
-    color: rgba(0,0,0,.26);
+    /*color: rgba(0,0,0,.26);*/
     box-shadow: none;
     transform: none;
     transition: none;
@@ -138,4 +138,8 @@ footer {
     text-align: center;
     font-size:14px;
     font-weight:400;
+}
+
+footer a {
+    color: rgb(114, 114, 114);
 }
