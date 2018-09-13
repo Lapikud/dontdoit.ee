@@ -30,11 +30,11 @@ Fork this repo to your own account and create a pull request for changes you hav
 
 3. Clone repo
 
-        git clone https://github.com/Lapikud/lapikud.github.io.git
+        git clone https://github.com/Lapikud/dontdoit.ee.git
 
 4. Serve the page (Use bash if on Windows)
 
-        cd lapikud.github.io
+        cd dontdoit.ee
         jekyll serve --host 0.0.0.0
 
 # Deploy
